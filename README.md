@@ -31,7 +31,7 @@ cd cctv-map-viewer
 ```
 ## Database
 ```bash
-CREATE TABLE cctv_Device_info (
+CREATE TABLE Device_info (
     id VARCHAR(10),
     cam_no INT,
     camera_name VARCHAR(80),
@@ -96,7 +96,7 @@ CREATE TABLE cctv_Device_info (
 ```
 
 ```bash
-INSERT INTO cctv_Device_info (
+INSERT INTO Device_info (
     cam_no, camera_name, Latitude, Longitude, Location,
     Project, SubPro, NewCode, NVR, Contract,
     cctv_Online_status, online_cause, online_other_cause,
