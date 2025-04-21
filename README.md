@@ -8,6 +8,7 @@ docker-compose up --build
 ```bash
 docker-compose down
 ```
+linke: http://localhost:8888
 
 # 📸 CCTV Map Viewer
 
