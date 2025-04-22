@@ -1,4 +1,4 @@
-# Re-creating the README content after session reset
+# Map Viewer
 
 # Setup docker
 ```bash
@@ -10,15 +10,15 @@ docker-compose down
 ```
 linke: http://localhost:8888
 
-# 📸 CCTV Map Viewer
+# 📸 Map Viewer
 
-**CCTV Map Viewer** is a simple interactive web application that displays CCTV camera locations on a map using [Leaflet.js](https://leafletjs.com/) and [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster). The project is designed to help visualize camera statuses with clustering functionality for better performance and readability.
+**Map Viewer** is a simple interactive web application that displays locations on a map using [Leaflet.js](https://leafletjs.com/) and [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster). The project is designed to help visualize camera statuses with clustering functionality for better performance and readability.
 
 ---
 
 ## 🗺️ Demo
 
-![CCTV Map Viewer Demo](access/Screenshot1.png)
+![Map Viewer Demo](access/Screenshot1.png)
 
 ---
 
