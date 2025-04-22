@@ -1,5 +1,31 @@
 # Map Viewer
 
+## Prerequisites
+
+Before running the application, please ensure you have the following installed:
+
+- [Docker](https://www.docker.com/products/docker-desktop)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+You can install Docker by following the steps for your operating system:
+
+### Install Docker on Windows / macOS
+
+1. Download Docker Desktop from [Docker's official site](https://www.docker.com/products/docker-desktop)
+2. Run the installer and follow the setup wizard
+3. Restart your computer if required
+4. Verify the installation:
+```bash
+docker --version
+docker-compose --version
+```
+```bash
+sudo apt update
+sudo apt install docker.io docker-compose -y
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+
 # Setup docker
 ```bash
 docker-compose up --build
